@@ -1,10 +1,11 @@
 import { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore from 'swiper';
 import s from './styles.module.css';
 import 'swiper/css';
 
 export default function App() {
-  const swiperRef = useRef(null);
+  const swiperRef = useRef<SwiperCore | null>(null);
   const [active, setActive] = useState(0);
 
   const slides = [
@@ -33,7 +34,7 @@ export default function App() {
       {/* стрелки */}
       <button
         className={`${s.arrow} ${s.prev} ${isStart ? s.disabled : ''}`}
-        onClick={() => swiperRef.current.slidePrev()}
+        onClick={() => swiperRef.current?.slidePrev()}
         disabled={isStart}
       >
         <svg viewBox="0 0 24 24">
@@ -43,7 +44,7 @@ export default function App() {
 
       <button
         className={`${s.arrow} ${s.next} ${isEnd ? s.disabled : ''}`}
-        onClick={() => swiperRef.current.slideNext()}
+        onClick={() => swiperRef.current?.slideNext()}
         disabled={isEnd}
       >
         <svg viewBox="0 0 24 24">
@@ -57,7 +58,7 @@ export default function App() {
           <span
             key={i}
             className={`${s.dot} ${active === i ? s.active : ''}`}
-            onClick={() => swiperRef.current.slideTo(i)}
+            onClick={() => swiperRef.current?.slideTo(i)}
           />
         ))}
       </div>

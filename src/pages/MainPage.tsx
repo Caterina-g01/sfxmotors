@@ -1,6 +1,5 @@
 import Header from "../widgets/Header/Header"
 import Footer from "../widgets/Footer/Footer"
-import HeroSliderPhotos from "../entities/HeroSliderPhotos/HeroSliderPhotos"
 import HeroSliderVideo from "../entities/HeroSliderVideo/HeroSliderVideo"
 import FeedBackSlider from "../entities/FeedBackSlider/FeedBackSlider"
 import Contacts from "../widgets/Contacts/Contacts"
