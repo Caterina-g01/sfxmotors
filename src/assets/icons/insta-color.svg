@@ -1,0 +1,21 @@
+<svg width="273" height="273" viewBox="0 0 273 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="136.5" cy="136.5" r="136.5" fill="white"/>
+<rect x="53" y="57" width="167" height="160" rx="41" stroke="url(#paint0_linear_2_48)" stroke-width="18"/>
+<circle cx="136.5" cy="136.5" r="41.5" stroke="url(#paint1_linear_2_48)" stroke-width="18"/>
+<ellipse cx="187.5" cy="90" rx="11.5" ry="11" fill="url(#paint2_linear_2_48)"/>
+<defs>
+<linearGradient id="paint0_linear_2_48" x1="172.5" y1="48" x2="68" y2="207" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3007A1"/>
+<stop offset="0.5" stop-color="#E6038F"/>
+<stop offset="1" stop-color="#FFE607"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_48" x1="165" y1="86" x2="107.5" y2="187" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF009D"/>
+<stop offset="1" stop-color="#FFA600"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2_48" x1="187.5" y1="79" x2="176" y2="101" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4D00FF"/>
+<stop offset="1" stop-color="#FF009D"/>
+</linearGradient>
+</defs>
+</svg>

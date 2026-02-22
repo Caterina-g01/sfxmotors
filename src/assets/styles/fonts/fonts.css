@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Fira-Sans-Condensed';
+  src:
+    url('/public/fonts/FiraSansCondensed-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src:
+    url('/public/fonts/RobotoMono-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
