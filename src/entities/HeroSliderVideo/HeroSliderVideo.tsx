@@ -1,8 +1,9 @@
+import heroVideo from '@/assets/images/heroVideo.mp4';
 export default function HeroSliderVideo() {
   return (
     <div className="relative w-full  overflow-hidden">
       <video
-        src="/src/assets/images/heroVideo.mp4"
+        src={heroVideo}
         autoPlay
         loop
         muted

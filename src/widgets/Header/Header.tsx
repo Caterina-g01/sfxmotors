@@ -1,11 +1,12 @@
 
-
+import Logo from '@/assets/icons/Logo.png';
+import PhoneIcon from '@/assets/icons/phone-icon.svg';
 export default function Header() {
 
   return (
     <header className="bg-[#262424]">
       <nav className="container mx-auto px-5 py-2 flex justify-between items-center">
-        <img className="h-20 w-20" src="/src/assets/icons/Logo.png" alt="Logo" />
+        <img className="h-20 w-20" src={Logo} alt="Logo" />
         <ul className="space-x-6 hidden md:flex">
           <li className="cursor-pointer transition-colors duration-300 hover:text-[#f6ecbc]">
             <a href="#contacts">Контакты</a>
@@ -20,7 +21,7 @@ export default function Header() {
         <div className="flex flex-col space-y-2">
           <img
             className="hidden w-6"
-            src="/src/assets/icons/phone-icon.svg"
+            src={PhoneIcon}
             alt="Phone icon"
           />
 

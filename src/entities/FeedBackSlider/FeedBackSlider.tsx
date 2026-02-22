@@ -2,22 +2,23 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
-export default function FloatingCarousel() {
+
+export default function FeedBackSlider() {
   const images = [
-    '/src/assets/images/feedback/feedback1.jpg',
-    '/src/assets/images/feedback/feedback2.jpg',
-    '/src/assets/images/feedback/feedback3.jpg',
-    '/src/assets/images/feedback/feedback4.jpg',
-    '/src/assets/images/feedback/feedback5.jpg',
-    '/src/assets/images/feedback/feedback6.jpg',
-    '/src/assets/images/feedback/feedback7.jpg',
-    '/src/assets/images/feedback/feedback8.jpg',
-    '/src/assets/images/feedback/feedback9.jpg',
-    '/src/assets/images/feedback/feedback10.jpg',
-    '/src/assets/images/feedback/feedback11.jpg',
-    '/src/assets/images/feedback/feedback12.jpg',
-    '/src/assets/images/feedback/feedback13.jpg',
-    '/src/assets/images/feedback/feedback15.jpg',
+    '@/assets/images/feedback/feedback1.jpg',
+    '@/assets/images/feedback/feedback2.jpg',
+    '@/assets/images/feedback/feedback3.jpg',
+    '@/assets/images/feedback/feedback4.jpg',
+    '@/assets/images/feedback/feedback5.jpg',
+    '@/assets/images/feedback/feedback6.jpg',
+    '@/assets/images/feedback/feedback7.jpg',
+    '@/assets/images/feedback/feedback8.jpg',
+    '@/assets/images/feedback/feedback9.jpg',
+    '@/assets/images/feedback/feedback10.jpg',
+    '@/assets/images/feedback/feedback11.jpg',
+    '@/assets/images/feedback/feedback12.jpg',
+    '@/assets/images/feedback/feedback13.jpg',
+    '@/assets/images/feedback/feedback15.jpg',
   ];
 
   return (

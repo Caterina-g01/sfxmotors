@@ -1,10 +1,11 @@
 import s from './styles.module.css'
+import BackgroundImg from '@/assets/images/sfx-background1.png';
 export default function AboutUs() {
   return (
     <div className="relative w-full overflow-hidden">
       <img
         className="w-full object-cover"
-        src="/src/assets/images/sfx-background1.png"
+        src={BackgroundImg}
         alt=""
       />
 
