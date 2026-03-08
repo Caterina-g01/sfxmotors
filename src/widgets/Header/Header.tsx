@@ -5,7 +5,7 @@ export default function Header() {
 
   return (
 <header className="bg-[#262424] overflow-visible">
-  <nav className="container relative mx-auto py-4 flex justify-end">
+  <nav className="container relative mx-auto px-2 py-4 flex justify-end">
 
     <img
       src={Logo}
