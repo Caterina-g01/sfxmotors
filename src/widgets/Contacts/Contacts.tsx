@@ -57,7 +57,7 @@ export default function Contacts() {
       <div className="flex flex-col items-center py-6">
         <div className="flex flex-col gap-4">
           <a
-            className="text-[#202020] hover:text-[#767676] flex flex-row gap-2"
+            className="text-[#202020] hover:text-[#767676] flex flex-row gap-2 lg:text-[20px]"
             href="tel:+375293703366"
           >
             <img className="w-7" src={PhoneIcon} alt="номер 1" />
@@ -65,7 +65,7 @@ export default function Contacts() {
           </a>
 
           <a
-            className="text-[#202020] hover:text-[#767676] flex flex-row gap-2"
+            className="text-[#202020] hover:text-[#767676] flex flex-row gap-2 lg:text-[20px]"
             href="tel:+79938841003"
           >
             <img className="w-7" src={PhoneIcon} alt="номер 2" />
